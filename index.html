@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <!-- https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-github -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
-
-    <style>
-
-
-
-
-
-    </style>
 
 </head>
 <body>
@@ -27,21 +22,40 @@
                 <img src="biopic.jpeg" alt="Alttext">
             </div>
             <div class="bio-text">
-                <h2>Über mich</h2>
-                <p>
-                Ich entwickle Webanwendungen mit Schwerpunkt auf JavaScript und Datenbankanbindungen. 
-                Dabei unterstütze ich die digitale Transformation von Geschäftsprozessen. 
-                Mein Fokus liegt auf sauberem, nachvollziehbarem Code, durchdachter Softwarearchitektur und einer strukturierten Arbeitsweise. 
-                Als M.Sc. mit mehrjähriger Erfahrung in Anwendungsentwicklung und IT-Projektmanagement im Immobilienbereich verfüge ich über ein solides Verständnis für komplexe Systeme, datengetriebene Prozesse und praxisorientierte Software. 
-                Ich arbeite zuverlässig und pragmatisch - dabei erweitere ich meine Kenntnisse entlang der aktuellen Projektanforderungen - z.B. in Schlüsseltechnologien wie Python, Java, TypeScript und React.
-                </p>
-            </div>
+
+                <div class="bio-text">
+
+                    <div class="bio-tabs">
+                    <span class="tab-link active" data-tab="about">Über mich</span>
+                    <span class="tab-link" data-tab="tech">Tech Stack</span>
+                    </div>
+
+                    <div id="about" class="tab-pane active">
+                    <p>
+                        Ich entwickle Webanwendungen mit Schwerpunkt auf JavaScript und Datenbankanbindungen zur Unterstützung der digitalen Transformation von Geschäftsprozessen. 
+                        Mein Fokus liegt auf sauberem, nachvollziehbarem Code, durchdachter Softwarearchitektur und einer strukturierten Arbeitsweise. 
+                        Als M.Sc. mit mehrjähriger Erfahrung in Anwendungsentwicklung und IT-Projektmanagement im Immobilienbereich verfüge ich über ein solides Verständnis für komplexe Systeme, datengetriebene Prozesse und praxisorientierte Software. 
+                    </p>
+                    </div>
+
+                    <div id="tech" class="tab-pane inactive">
+                    <p>
+                        ✅ JavaScript</br>
+                        ✅ HTML</br>
+                        ✅ CSS</br>
+                        ✅ node.js</br>
+                        ✅ SQL, Oracle</br>
+                        ✅ LISP</br>
+                        ✅ Git, GitHub, GitLab
+                    </p>
+                    </div>
+                </div>
         </section>
     </div>
 
-    <div class="portfolio">
+    <div id="portfolio-div" class="portfolio">
 
-       <div class="project-card">
+       <!-- <div class="project-card">
             <div class="project-thumb">
               <img src="https://cdn.pixabay.com/photo/2019/09/06/03/15/sudoku-4455317_1280.jpg" alt="Alttext">
             </div>
@@ -54,30 +68,12 @@
                 </p>
                     <div class="project-links">
                         <a href="https://amaxdv.github.io/mxSudosolve/" target="_blank" rel="noreferrer noopener" class="btn">Live-Demo</a>
-                        <a href="https://github.com/amaxdv/mxSudosolve" target="_blank" rel="noreferrer noopener" class="btn btn-secondary">Code</a>
+                        <a href="https://github.com/amaxdv/mxSudosolve" target="_blank" rel="noreferrer noopener" class="btn btn-secondary"><i class="fa">&#xf09b;</i> Code</a>
                     </div>
                 </div>
-        </div>
-       
-        <div class="project-card">
-            <div class="project-thumb">
-              <img src="https://cdn.pixabay.com/photo/2016/12/07/13/00/question-1889416_1280.jpg" alt="Alttext" style="height:auto;">
-            </div>
-                <div class="project-content">
-                <h3>Quiz-Webapp mit Node.js-Backend</h3>
-                <p>
-                Diese Quiz-Webapp kombiniert ein interaktives Frontend in HTML, CSS und JavaScript mit einem serverseitigen Node.js-Backend. 
-                Nutzer können sich registrieren, Quizrunden spielen und Punkte sammeln, die automatisch in einer lokalen Datenbank-Tabelle erfasst werden. 
-                Unterstützt werden sowohl klassische Multiple-Choice-Fragen als auch Schätzfragen, bei denen die Punktevergabe auf der Genauigkeit der Antwort basiert.
-                </p>
-                    <div class="project-links">
-                        <a href="https://amaxdv.github.io/mxQuiz/" target="_blank" rel="noreferrer noopener" class="btn">Live-Demo</a>
-                        <a href="https://github.com/amaxdv/mxQuiz" target="_blank" rel="noreferrer noopener" class="btn btn-secondary">Code</a>
-                    </div>
-                </div>
-        </div>
+        </div> -->
 
-        <div class="project-card">
+        <!-- <div class="project-card">
             <div class="project-thumb">
               <img src="https://cdn.pixabay.com/photo/2024/02/11/20/17/ai-generated-8567356_1280.jpg" alt="Alttext">
             </div>
@@ -95,37 +91,9 @@
                         <a href="https://github.com/amaxdv/mxBlockDataExtraction" target="_blank" rel="noreferrer noopener" class="btn btn-secondary">Code</a>
                     </div>
                 </div>
-        </div>
-
-        <div class="project-card" style="display:none;">
-            <div class="project-thumb">
-              <img src="https://cdn.pixabay.com/photo/2021/10/14/06/56/platinum-6708278_1280.jpg" alt="Alttext">
-            </div>
-                <div class="project-content">
-                <h3>Edelmetall Tracking mit Webscraping</h3>
-                <p>Kurze Beschreibung des Projekts. Fokus auf Technologie, Ziel oder besondere Merkmale.</p>
-                    <div class="project-links">
-                        <a href="#" class="btn">Live-Demo</a>
-                        <a href="#" class="btn btn-secondary">Code</a>
-                    </div>
-                </div>
-        </div>
-
-        <div class="project-card" style="display:none;">
-            <div class="project-thumb">
-              <img src="https://cdn.pixabay.com/photo/2016/12/05/09/36/application-1883453_1280.jpg" alt="Alttext">
-            </div>
-                <div class="project-content">
-                <h3>Dynamisches Formular Datenaktualisierung</h3>
-                <p>Kurze Beschreibung des Projekts. Fokus auf Technologie, Ziel oder besondere Merkmale.</p>
-                    <div class="project-links">
-                        <a href="#" class="btn">Live-Demo</a>
-                        <a href="#" class="btn btn-secondary">Code</a>
-                    </div>
-                </div>
-        </div>
-
+        </div> -->
     </div>
+</div>
 
     <footer class="footer">
         <div class="footer-cta">

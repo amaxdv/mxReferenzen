@@ -1,0 +1,27 @@
+ID;mxSudoSolve
+title;Sudoku Solver mit Model-View-Controller Architektur
+image;https://cdn.pixabay.com/photo/2019/09/06/03/15/sudoku-4455317_1280.jpg
+description;Diese Progressive Web App löst Sudokus anhand von Logikregeln und analysiert jede Zelle in einem eigenen Datenmodell. 
+description;Strategien wie Wildcard-Ausschlüsse, Naked Singles und Hidden Singles werden werden in einer Schleife ausgeführt, bis das Rätsel gelöst ist oder keine weiteren Schritte mehr möglich sind.  
+description;Die saubere Trennung von Datenmodell und UI sorgt für eine transparente, technisch robuste Darstellung aller Berechnungsschritte.
+demo;https://amaxdv.github.io/mxSudosolve/
+code;https://github.com/amaxdv/mxSudosolve
+
+ID;mxQuiz
+title;Quiz-Webapp mit Node.js-Backend
+image;https://cdn.pixabay.com/photo/2016/12/07/13/00/question-1889416_1280.jpg
+description;Diese Quiz-Webapp kombiniert ein interaktives Frontend in HTML, CSS und JavaScript mit einem serverseitigen Node.js-Backend. 
+description;Nutzer können sich registrieren, Quizrunden spielen und Punkte sammeln, die automatisch in einer lokalen Datenbank-Tabelle erfasst werden. 
+description;Unterstützt werden sowohl klassische Multiple-Choice-Fragen als auch Schätzfragen, bei denen die Punktevergabe auf der Genauigkeit der Antwort basiert.
+demo;https://amaxdv.github.io/mxQuiz/
+code;https://github.com/amaxdv/mxQuiz
+
+ID;mxBlockx
+title;Automatisierter Block-Attribut-Export in AutoCAD
+image;https://cdn.pixabay.com/photo/2024/02/11/20/17/ai-generated-8567356_1280.jpg
+description;Diese AutoLISP-Routine erweitert AutoCAD um eine automatisierte Exportfunktion für Blockattribute. 
+description;Sie durchsucht Zeichnungen gezielt nach definierten Blöcken auf bestimmten Layern, filtert diese dynamisch (inklusive Umlaut-toleranter Namenerkennung) und exportiert alle Attributdaten strukturiert in Textdateien. 
+description;Der Dateiname wird dabei automatisch aus dem Zeichnungsnamen und dem Blocknamen generiert und im übergeordneten Projektverzeichnis gespeichert. 
+description;Die Lösung ermöglicht effizientes Datenmanagement für CAD-basierte CAFM-Workflows und reduziert manuelle Arbeitsschritte auf ein Minimum.
+demo;#noDemo
+code;https://github.com/amaxdv/mxBlockDataExtraction
