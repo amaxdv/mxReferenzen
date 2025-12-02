@@ -2,7 +2,7 @@ ID;mxSudoSolve
 title;Sudoku Solver mit Model-View-Controller Architektur
 image;https://cdn.pixabay.com/photo/2019/09/06/03/15/sudoku-4455317_1280.jpg
 description;Diese Progressive Web App löst Sudokus anhand von Logikregeln und analysiert jede Zelle in einem eigenen Datenmodell. 
-description;Strategien wie Wildcard-Ausschlüsse, Naked Singles und Hidden Singles werden werden in einer Schleife ausgeführt, bis das Rätsel gelöst ist oder keine weiteren Schritte mehr möglich sind.  
+description;Strategien wie Wildcard-Ausschlüsse, Naked Singles und Hidden Singles werden in einer Schleife ausgeführt, bis das Rätsel gelöst ist oder keine weiteren Schritte mehr möglich sind.  
 description;Die saubere Trennung von Datenmodell und UI sorgt für eine transparente, technisch robuste Darstellung aller Berechnungsschritte.
 demo;https://amaxdv.github.io/mxSudosolve/
 code;https://github.com/amaxdv/mxSudosolve
