@@ -102,6 +102,7 @@ html, body {
   box-sizing: border-box; /* sorgt dafür, dass Padding nicht Breite über 100% treibt */
 }
 
+
 .project-card {
   background-color: #fff;
   border-radius: 12px;

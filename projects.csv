@@ -1,3 +1,12 @@
+ID;mxRequestForm
+title;Webbasiertes Formular-Framework für SAP-konforme ETL-Prozesse
+image;https://cdn.pixabay.com/photo/2021/07/25/18/02/api-6492491_1280.jpg
+description;Die Anwendung verarbeitet Eingabedaten über ein dynamisches Formularsystem. 
+description;Sie nutzt wiederverwendbare Lookup-Komponenten für Referenzdaten und führt anschließend regelbasierte Transformationen zur Erzeugung einer standardisierten XML-Ausgabe durch.
+description;Die Anwendung wurde als eigenständige Demo-Version aus einer Enterprise-Umgebung herausgelöst und für eine unabhängige Webausführung optimiert. 
+demo;https://amaxdv.github.io/mx_request-form/
+code;https://github.com/amaxdv/mx_request-form
+
 ID;mxSudoSolve
 title;Sudoku Solver mit Model-View-Controller Architektur
 image;https://cdn.pixabay.com/photo/2019/09/06/03/15/sudoku-4455317_1280.jpg
